@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style type ="text/css">
+		.header_nav_ul_li {padding: 0 0 0 10px;}
+		.header_nav_ul_li > button {background: transparent; border: 0; cursor: pointer; 
+								font-size: 10pt;
+							}
+		.header_nav_ul {display: flex; list-style: none; padding: 0 0 0 800px;}
+		.header_nav {}
+		.header_div {display: flex; }
+		.header {border: 1px solid black; width: 1140px; margin: auto;}
+		
+		
+		.section01 {width: 1140px; margin: auto; display: flex;}
+		.rion {padding: 0 0 0 0; width: 200px; height: 200px;}
+		.section01 > ul > li > button {background: transparent; border: 0; cursor: pointer;
+								font-size: 20pt; width: 200px; 
+								margin: 0 30px 0 0;}
+		.section01 > ul {display: flex; list-style: none; padding: 0 300px 0 0; align-items: center;}
+		.section01_ul_li {margin: 0 0 0 0;}
+		.section02_ul {display: flex; list-style: none; padding: 0 0 0 80px; width: 1140px;}
+		.section02_ul > li > button {background: transparent; border: 0; cursor: pointer;}
+		.section02 {width: 1140px; margin:auto;}
+		.img_wrap{width: 600px; height: 600px; position: absolute; overflow: hidden;}
+		
+		.div_section02 {overflow: hidden; width: 1140px; margin: auto;}
+		.img1 {}
+		.img2 {}
+		
+		.div_section02:hover .img1 { transition: ease-in-out 0.5s; margin-left:-690px;}
+		.div_section02:hover .img2 { transition: ease-in-out 0.5s; margin-left:1050px;}
+	</style>
+
+</head>
+<body>
+	<div>
+	<header class="header">
+		<div class="header_div">
+			<nav class="header_nav">
+				<ul class="header_nav_ul">
+					<li class="header_nav_ul_li"><button>my정보&nbsp;&#124;</button></li>
+					<li class="header_nav_ul_li"><button>회원가입&nbsp;&#124;</button></li>
+					<li class="header_nav_ul_li"><button>로그인&nbsp;&#124;</button></li>	
+					<li class="header_nav_ul_li"><button>고객센터&nbsp;&#124;</button></li>
+					
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="section01">
+		<ul>	
+			<li class="section01_ul_li"><button>이벤트</button></li>
+			<li class="section01_ul_li"><button>이벤트</button></li>
+			<li><button><img src="라이언.png" class="rion"></button></li>
+			<li class="section01_ul_li"><button>이벤트</button></li>
+			<li class="section01_ul_li"><button>이벤트</button></li>
+		</ul>
+	</section>
+	<div class="div_section02">
+	<section class="section02">
+		<ul class="section02_ul">
+			<li><button><img src="다운로드01.jpg" class="img1"></button></li>
+			<li><button><img src="다운로드02.jpg" class="img2"></button></li>
+			
+		</ul>
+	</section>
+	</div>
+			
+
+
+	</div>
+</body>
+</html>
